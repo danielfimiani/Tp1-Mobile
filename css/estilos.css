@@ -126,7 +126,7 @@ figcaption{
 }
 #principal p {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1em;
 }
 
@@ -146,4 +146,42 @@ h3 {
 iframe {
     width: 35vh;
     height: 20vh;
+}
+
+#contacto{ 
+    padding: 30px;   
+}
+
+form{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+    padding: 10px;  
+    height: 40vh;
+}
+
+
+form input {
+    width: 90%;
+    margin: 15px;
+}
+
+form label {
+    width: 90%;
+}
+footer {
+    background: #000000;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 25px;
+}
+
+footer p {
+    color: #ffffff;
 }
