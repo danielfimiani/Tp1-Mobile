@@ -105,16 +105,39 @@ img{
 #pastillas p a{
     color: #3d414c;   
 }
-h2 {
+h2{
     margin: 20px 0;
     text-align: center;
     color: #822007;
 }
 
 #pastillas figure {
-    border-bottom: 1px solid #b2bbc0;
-    margin: 20px 0;
+    margin-top: 20px ;
+    -webkit-box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+    box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
 }
 figcaption{
     padding: 10px;
+}
+
+#principal{
+    padding: 30px;
+}
+#principal p {
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+h3 {
+    margin-top: 5px;
+    color: #822007;
+}
+
+#video{ 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
