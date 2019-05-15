@@ -224,3 +224,14 @@ footer p  {
     color: #ffffff;   
 } 
 
+@media screen and (max-width: 900px) {
+    #pastillas {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+    #pastillas h2{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+}
