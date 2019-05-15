@@ -234,4 +234,8 @@ footer p  {
         grid-column-start: 1;
         grid-column-end: -1;
     }
+
+    #principal,#pastillas,#video,#contacto{
+        padding: 100px;
+    }
 }
