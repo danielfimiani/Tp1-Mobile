@@ -99,10 +99,11 @@ img{
 
 #pastillas {
     display: grid;
+    grid-gap: 10px;
     padding: 30px;
 }
 
-#pastillas p a{
+#pastillas a{
     color: #3d414c;   
 }
 h2{
@@ -171,6 +172,7 @@ form input {
     border-radius: 10px;
     border: .5px solid #19472a;
     height: 1.8em;
+    padding: 8pX;
 }
 
 #boton{
@@ -192,28 +194,36 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 15px;
 }
 
 footer div {
     width: 100%;
-    height: 40%;
+    height: 60%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
 }
 
-footer div ul {
+footer div ul:nth-child(1) {
     height: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer div ul:nth-child(2){
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 footer div ul li {
     color: #ffffff; 
-    font-size: 12px;
+    font-size: 14px;
 }
 
 footer div ul li a figure{
@@ -223,8 +233,8 @@ footer div ul li a figure{
 footer p  {
     color: #ffffff;   
 } 
-/*
-@media screen and (min-width: 480px) {
+
+@media screen and (min-width: 481px) and (max-width: 900px){
     #pastillas {
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
@@ -238,4 +248,4 @@ footer p  {
     #principal,#pastillas,#video,#contacto{
         padding: 100px;
     }
-}*/
+}
