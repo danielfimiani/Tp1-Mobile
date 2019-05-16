@@ -165,8 +165,6 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
-    padding: 25px;
     height: 50vh;
 }
 
@@ -326,19 +324,8 @@ footer p  {
         grid-column-end: -1;
     }
 
-    footer div {
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    footer div ul:nth-child(1) {
-        justify-content: space-around;
-    }
-
-    footer div ul:nth-child(2) {
-        width: 40%;
-        justify-content: space-between;
+    #principal p {
+        line-height: 1.5em;
     }
 
     iframe{
@@ -359,6 +346,7 @@ footer p  {
     #boton {
         width: 100px;
     }
+    
     footer div {
         flex-direction: row;
         justify-content: space-around;
