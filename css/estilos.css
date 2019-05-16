@@ -306,8 +306,21 @@ footer p  {
         margin-top: 100px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 1em;
-        align-items: baseline;
     }
+    
+    #pastillas figure picture img{
+        border-bottom: 1px solid gray;
+    }
+    #pastillas figure figcaption{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #pastillas figure figcaption a{
+        align-items: flex-start;
+    }
+
     #pastillas h2{
         grid-column-start: 1;
         grid-column-end: -1;
