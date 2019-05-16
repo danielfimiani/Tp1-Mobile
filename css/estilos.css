@@ -244,15 +244,70 @@ footer p  {
         grid-column-start: 1;
         grid-column-end: -1;
     }
-
-    #principal,#pastillas,#video,#contacto{
-        padding: 100px;
-    }
 }
 
 @media screen and (min-width: 901px) {
-    main {
+    #pastillas,#principal,#video,#contacto{
         max-width: 1024px;
         margin: auto;
+    }
+
+    header{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    header h1{
+        width: 15%;
+    }
+
+    }
+    #botones {
+        position: relative;
+        top: 0;
+        text-indent: 0;
+        display: flex;
+        justify-content: flex-end;
+        height: 8vh;
+        align-items: center;        
+    }
+    #botones li {
+        margin-right: 50px;
+    }
+    #botones li a{
+        margin: 0 10px;
+        color: #ffffff;
+    }
+
+    #iconos li:last-child {
+        display: none;
+    }
+
+    #iconos li:first-child{
+        display: none;
+    }
+
+    #banner {
+        width: 100vw;
+        left: 0;
+    }
+    #pastillas {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1em;
+        align-items: baseline;
+    }
+    #pastillas h2{
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    footer div {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer div ul:nth-child(1) {
+        justify-content: space-around;
     }
 }
