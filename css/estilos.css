@@ -223,7 +223,7 @@ footer div ul li a figure{
 footer p  {
     color: #ffffff;   
 } 
-
+/*
 @media screen and (min-width: 480px) {
     #pastillas {
         grid-template-columns: 1fr 1fr;
@@ -238,4 +238,4 @@ footer p  {
     #principal,#pastillas,#video,#contacto{
         padding: 100px;
     }
-}
+}*/
