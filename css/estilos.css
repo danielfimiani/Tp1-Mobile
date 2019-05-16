@@ -224,7 +224,7 @@ footer p  {
     color: #ffffff;   
 } 
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 480px) {
     #pastillas {
         grid-template-columns: 1fr 1fr;
         grid-gap: 1em;
