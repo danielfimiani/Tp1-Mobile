@@ -249,3 +249,10 @@ footer p  {
         padding: 100px;
     }
 }
+
+@media screen and (min-width: 901px) {
+    main {
+        max-width: 1024px;
+        margin: auto;
+    }
+}
