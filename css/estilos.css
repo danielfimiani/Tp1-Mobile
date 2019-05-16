@@ -301,6 +301,17 @@ footer p  {
         grid-column-end: -1;
     }
 
+    iframe{
+        -webkit-box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+        box-shadow: 4px 7px 20px -9px rgba(0,0,0,0.75);
+        height: 500px;
+    }
+
+    #contacto {
+        margin:150px auto;
+        
+    }
     footer div {
         flex-direction: row;
         justify-content: space-around;
@@ -309,5 +320,9 @@ footer p  {
 
     footer div ul:nth-child(1) {
         justify-content: space-around;
+    }
+
+    footer figcaption{
+        color: #ffffff;
     }
 }
