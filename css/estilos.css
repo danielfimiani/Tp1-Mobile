@@ -310,7 +310,6 @@ footer p  {
 
     #contacto {
         margin:150px auto;
-        
     }
     footer div {
         flex-direction: row;
@@ -322,7 +321,22 @@ footer p  {
         justify-content: space-around;
     }
 
+    footer div ul:nth-child(2) {
+        width: 40%;
+        justify-content: space-between;
+        align-items: baseline;
+        list-style: none;
+    }
+
+    footer div ul:nth-child(2) li a{
+        text-decoration: none;
+    }
+
     footer figcaption{
         color: #ffffff;
+    }
+
+    footer div ul li {
+        font-size: 20px;
     }
 }
