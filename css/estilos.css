@@ -95,9 +95,8 @@ nav:target #iconos li:first-child {
 nav:target #iconos li:last-child {
     display: block;
 }
-
-main div:nth-child(1){
-    font-size: 0px;
+#banner h2{
+    display: none;
 }
 
 img{
@@ -185,11 +184,12 @@ form label {
 }
 
 #boton{
-    width: 80%;
+    width: 30%;
     color: #822007;
     background: #ffffff;
     font-size: 18px;
     align-self: flex-end;
+    margin-top: 20px;
 }
 
 footer {
@@ -257,6 +257,14 @@ footer p  {
     #pastillas h2{
         grid-column-start: 1;
         grid-column-end: -1;
+    }
+
+    #video {
+        height: 500px;
+    }
+
+    #video iframe{
+        height: 100%;
     }
 }
 
