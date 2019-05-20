@@ -192,6 +192,11 @@ form label {
     margin-top: 20px;
 }
 
+#texto {
+    width: 80%;
+    border-color: #19472a;
+}
+
 footer {
     background: #000000;
     display: flex;
