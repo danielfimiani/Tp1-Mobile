@@ -274,7 +274,7 @@ footer p  {
 }
 
 @media screen and (min-width: 901px) {
-    #pastillas,#principal,#video,#contacto{
+    section{
         max-width: 1024px;
         margin: auto;
     }
